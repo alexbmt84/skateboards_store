@@ -1,0 +1,833 @@
+
+
+@font-face {
+    font-family: montserrati;
+    src:url("../fonts/Montserrat-Italic-VariableFont_wght.ttf")
+  }
+
+@font-face {
+    font-family: montserrat;
+    src:url("../fonts/Montserrat-Bold.ttf")
+  }
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: kronaone;
+    src:url("../fonts/KronaOne-Regular.ttf")
+  }
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+main {
+    width: 100%;
+    min-height: 900px;
+    display: flex;
+    background-color: #212121;
+
+}
+
+.lgwm {
+    width: 86px;
+    height: 55px;
+}
+
+.top-navL {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #121212;
+    opacity: 1;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    height: 100px;
+    padding: 1em;
+    width: 50%;
+}
+
+.top-navR {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #121212;
+    opacity: 1;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    height: 100px;
+    padding: 1em;
+    width: 50%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu > li {
+    margin: 0 1rem;
+    overflow: hidden;
+    font-family: montserrat;
+    font-size: 80%;
+  }
+
+.menu > li > a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 20px;
+  }
+
+  .log {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.log > li {
+    margin: 0 1rem;
+    overflow: hidden;
+    font-family: montserrat;
+    font-size: 80%;
+  }
+
+.log > li > a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 20px;
+  }
+
+.mainB {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.mainSkate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    
+}
+
+.mainREdit {
+    width: 880px;
+    background-color: #212121;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.mainR {
+    width: 50%;
+    background-color: #212121;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.mainL {
+    width: 50%;
+    background-color: #212121;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sktMain {
+    width: 50%;
+    background-color: #212121;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+h1 {
+    text-align: left;
+    margin-top: 100px;
+    padding-top: 0;
+    padding-bottom: 15px;
+    color: #929487;
+    font-family: montserrat;
+    font-size: 40px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    padding-top: 0;
+}
+
+.h1Welcome {
+    text-align: left;
+    margin-top: 2px;
+    padding-top: 0;
+    padding-bottom: 10px;
+    color: white;
+    font-family: montserrat;
+    font-style: italic;
+    font-size: 54px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding-top: 0;
+}
+
+.h1Welcome2 {
+    text-align: left;
+    margin-top: 115px;
+    padding-top: 0;
+    padding-bottom: 15px;
+    color: white;
+    font-family: montserrat;
+    font-size: 24px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding-top: 0;
+}
+
+.h2Index {
+    text-align: left;
+    margin-top: 40px;
+    padding: 0;
+    color: white;
+    font-family: kronaone;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    max-width: 265px;
+}
+
+.h2Welcome {
+    text-align: left;
+    margin-top: 40px;
+    padding: 0;
+    color: white;
+    font-family: kronaone;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    max-width: 407px;
+}
+
+.h2Login {
+    text-align: left;
+    margin-top: 40px;
+    padding: 0;
+    color: white;
+    font-family: kronaone;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-align: left;
+    margin-top: 40px;
+    padding: 0;
+    color: #5F5F5F;
+    font-family: kronaone;
+    font-size: 11px;
+    line-height: 35px;
+    text-transform: uppercase;
+    max-width: 407px;
+}
+
+h4 {
+    text-align: left;
+    margin-top: 35px;
+    padding: 0;
+    color: white;
+    font-family: kronaone;
+    font-size: 13px;
+    line-height: 35px;
+    text-transform: uppercase;
+    max-width: 407px;
+    cursor: pointer;
+}
+
+.a:hover {
+  color: #3f3d3d;
+}
+
+.under:hover {
+  color: #3f3d3d;
+}
+
+.text {
+    width: 407px;
+
+}
+
+.photo {
+    border-radius: 30px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, 
+                rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 407px;
+    height: 618px;
+    margin-top: 110px;
+    margin-right: 43px;
+    margin-bottom: 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.bgImg {
+    border-radius: 25px;
+    width: 397px;
+    height: 608px;
+    background-image: url(skater.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.photoRoad {
+  border-radius: 30px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, 
+              rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 407px;
+  height: 573px;
+  margin-top: 110px;
+  margin-right: 43px;
+  margin-bottom: 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.bgImgRoad {
+    border-radius: 25px;
+    width: 397px;
+    height: 563px;
+    background-image: url(../img/road.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.photoWelc {
+    border-radius: 30px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, 
+                rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 407px;
+    height: 690px;
+    margin-top: 110px;
+    margin-right: 80px;
+    margin-bottom: 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.bgImgWelc {
+    border-radius: 25px;
+    width: 397px;
+    height: 680px;
+    background-image: url(skater.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.photoReg {
+    border-radius: 30px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, 
+                rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 407px;
+    height: 840px;
+    margin-top: 110px;
+    margin-right: 43px;
+    margin-bottom: 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.bgImgReg {
+    border-radius: 25px;
+    width: 397px;
+    height: 830px;
+    background-image: url(../img/flip.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.photoEd {
+    border-radius: 32px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, 
+                rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 407px;
+    height: 618px;
+    margin-top: 110px;
+    margin-right: 43px;
+    margin-bottom: 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.bgImgEd {
+    border-radius: 30px;
+    width: 397px;
+    height: 608px;
+    background-image: url(metro.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.photo3 {
+  margin-top: 110px;
+  border-radius: 32px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, 
+              rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 407px;
+  height: 618px;
+  margin-right: 8px;
+  margin-bottom: 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.bgImg3 {
+    border-radius: 30px;
+    width: 397px;
+    height: 608px;
+    background-image: url(../img/skatestairs.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.photoLong {
+  margin-top: 43px;
+  border-radius: 32px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, 
+              rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 860px;
+  height: 400px;
+  margin-right: 8px;
+  margin-bottom: 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.bgLong {
+    border-radius: 30px;
+    width: 850px;
+    height: 390px;
+    background-image: url(../img/seaskate.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/**************************    RECHERCHE    **********************************/
+  
+  :root {
+    --border-radius: 10px;
+  }
+  
+  
+  .Card {
+    margin-top: 40px;
+    padding: 1px;
+    border-radius: var(--border-radius);
+    background: linear-gradient(-67deg, rgba(200, 216, 231, 0.7), rgba(255, 255, 255, 0.8));
+    width: 680px;
+  }
+  
+  .CardInner {
+    padding: 16px 16px;
+    background-color: #e2e9f4;
+    border-radius: var(--border-radius);
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .Icon {
+    min-width: 46px;
+    min-height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--border-radius);
+    margin-right: 12px;
+    box-shadow: -2px -2px 6px rgba(255, 255, 255, 0.6), 2px 2px 12px #c8d8e7;
+  }
+  .Icon svg {
+    transform: translate(-1px, -1px);
+    cursor: pointer;
+  }
+  
+  label {
+    font-family: montserrat;
+    font-weight: 100;
+    display: block;
+    color: #3c4b66;
+    margin-bottom: 12px;
+  }
+  
+  .InputContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  input {
+    background-color: #e3edf7;
+    padding: 16px 32px;
+    border: none;
+    display: block;
+    font-family: montserrat;
+    color: #a9b8c9;
+    transition: all 240ms ease-out;
+    width: 100%;
+  }
+  input::placeholder {
+    color: #6d7f8f;
+  }
+  input:focus {
+    outline: none;
+    color: #6d7f8f;
+    background-color: #eff5fa;
+  }
+  
+  .InputContainer {
+    --top-shadow: inset 1px 1px 3px #c5d4e3, inset 2px 2px 6px #c5d4e3;
+    --bottom-shadow: inset -2px -2px 4px rgba(255,255,255, .7);
+    position: relative;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+  }
+  .InputContainer:before, .InputContainer:after {
+    left: 0;
+    top: 0;
+    display: block;
+    content: "";
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  .InputContainer:before {
+    box-shadow: var(--bottom-shadow);
+  }
+  .InputContainer:after {
+    box-shadow: var(--top-shadow);
+  }
+
+  /********************************************************************    BUTTONS    *******************************************************************/
+
+  .divBtn {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+  }
+
+    .btn {
+        background-color: #e2e9f4;
+        margin-top: 45px;
+        min-width: 120px;
+        min-height: 40px;
+        color: #121212;
+        font-family: montserrat;
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 20px;
+        margin-right: 66px;
+        cursor: pointer;
+    
+    }  
+
+    .btn:hover {
+      color: white;
+    }  
+
+    .btnCart {
+        background-color: #e2e9f4;
+        margin-top: 45px;
+        min-width: 120px;
+        min-height: 40px;
+        color: #121212;
+        font-family: montserrat;
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+    
+    }  
+
+
+    /****************************************************************    LOGIN    ************************************************************************/
+
+    .text-input1{
+        margin-top: 10px;
+        border-radius: 5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-size: 16px;
+        height: 36px;
+        background: rgba(250,250,250,1);
+        border: 1px solid #6b6b6b;
+        line-height: 18px;
+        display: inline-block;
+        color: black;
+        padding: 5px;
+      }
+      
+      .text-input2{
+        margin-top: 5px;
+        border-radius: 5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-size: 16px;
+        height: 36px;
+        background: rgba(250,250,250,1);
+        border: 1px solid #6b6b6b;
+        line-height: 18px;
+        display: inline-block;
+        color: black;
+        padding: 5px;
+        margin-bottom: 40px;
+      }
+
+      .labelEmail{
+        margin-top: 40px;
+        color: white;
+        font-family: montserrat;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+
+      .labelNom{
+        margin-top: 40px;
+        color: white;
+        font-family: montserrat;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+
+      .labelPassword {
+        margin-top: 20px;
+        color: white;
+        font-family: montserrat;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+
+      .linkLog {
+        margin-top: 20px;
+        text-decoration: none;
+        font-family: montserrat;
+        color: white;
+ 
+
+      }
+
+      .linkLog:hover {
+        color: #6d7f8f;
+      }
+
+
+
+      a {
+        margin-top: 20px;
+      }
+
+      .btnLog {
+        background-color: #e2e9f4;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        min-width: 120px;
+        min-height: 40px;
+        color: #121212;
+        font-family: montserrat;
+        font-weight: 400;
+        font-size: 18px;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 20px;
+        margin-right: 66px;
+        cursor: pointer;
+    
+    }
+
+    .divSkate {
+      border-radius: 30px;
+      box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, 
+                  rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 1135px;
+      height: 526px;
+      margin-top: 110px;
+      margin-right: 43px;
+      margin-bottom: 5px;
+      padding: 0;
+      cursor: pointer;
+  }
+  
+  .photoSkate {
+      border-radius: 25px;
+      width: 1127px;
+      height: 518px;
+      background-image: url(planches.png);
+      background-size: cover;
+      background-position: center;
+  }
+
+  .skateTitle {
+    width: 1127px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .textSkate {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+
+  .textSkate2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+  }
+
+
+  .textSkate3 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 30px;
+  }
+  
+  i {
+    margin-left: 100px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .sktImg {
+    border-radius: 30px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, 
+                rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 340px;
+    height: 516px;
+    margin-top: 110px;
+
+    margin-bottom: 5px;
+    padding: 0;
+    cursor: pointer;
+}
+  .sktImg2 {
+    border-radius: 30px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, 
+                rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 399px;
+    height: 545px;
+    margin-top: 110px;
+
+    margin-bottom: 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.sktBg {
+    border-radius: 25px;
+    width: 340px;
+    height: 525px;
+    background-image: url(skate.png);
+    background-size: cover;
+    background-position: center;
+}
+.sktBg2 {
+  margin-bottom: 35px;
+    border-radius: 25px;
+    width: 399px;
+    height: 565px;
+    background-image: url(skates.png);
+    background-size: cover;
+    background-position: center;
+}
+
+hr {
+  color: #e2e9f4;
+  border-width: 3px;
+
+}
